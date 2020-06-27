@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/jainhemant163/Operationalize-a-Machine-Learning-Microservice-API.svg?style=svg)](https://app.circleci.com/pipelines/github/jainhemant163/Operationalize-a-Machine-Learning-Microservice-API)
 
 ## Project Overview
 
