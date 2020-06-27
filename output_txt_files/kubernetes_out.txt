@@ -1,0 +1,13 @@
+jainh@DESKTOP-I9BUUUR MINGW64 /d/Udacity/Cloud DevOps Nanodegree/P4 - Operationalize a Machine Learning Microservice API (master)
+$ ./run_kubernetes.sh 
+kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create 
+instead.
+deployment.apps/development created
+NAME                           READY   STATUS              RESTARTS   AGE
+development-8664dc8df5-r65zm   0/1     ContainerCreating   0          0s
+service/development exposed
+
+jainh@DESKTOP-I9BUUUR MINGW64 /d/Udacity/Cloud DevOps Nanodegree/P4 - Operationalize a Machine Learning Microservice API (master)
+$ kubectl get pod
+NAME                           READY   STATUS    RESTARTS   AGE
+development-8664dc8df5-r65zm   1/1     Running   0          2m23s
